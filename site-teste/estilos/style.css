@@ -1,0 +1,37 @@
+html {
+    font-size: 10px; /*px significa pixels: o tamanho da fonte base agora é de 10 pixels*/
+    font-family: 'Comic Neue', cursive; /* este deve ser o nome da fonte que você obteve no Google Fonts */ 
+}
+li, h1 {
+    color: green;
+}
+h1 {
+    font-size: 60px;
+    text-align: center;
+}
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+html{
+    background-color: #90EE90;
+}
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #B0E0E6;
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: #00FF7F;
+    text-shadow: 3px 3px 1px black;
+}
+img {
+    display: block; /*dá o comportamento de nível bloco para a imagem, para que seja possível aplicar margens a uma imagem, já que, naturalmente, ela seria um elemento em linha*/
+    margin: 0 auto;
+    width: 500px;
+}
